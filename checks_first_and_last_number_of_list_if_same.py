@@ -11,3 +11,8 @@
 # if they are not the same return False
 
 # write the given list
+numbers_x = [10, 20, 30, 40, 10]
+print("The result is " same_first_last(numbers_x))
+
+numbers_y = [75, 65, 35, 75, 30]
+print("The result is " same_first_last(numbers_y))
