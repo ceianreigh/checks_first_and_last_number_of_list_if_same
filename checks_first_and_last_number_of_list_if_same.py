@@ -2,17 +2,23 @@
 
 # pseudocode
 
+
 # define a function that takes a list as an argument
+def same_first_last(numbers):
+    # print the given list
+    print("The given list is", numbers)
+    # check if the first and last number of the list are the same
+    if numbers[0] == numbers[-1]:
+        # if they are the same return True
+        return True
+    # if they are not the same return False
+    else:
+        return False
 
-# check if the first and last number of the list are the same
-
-# if they are the same return True
-
-# if they are not the same return False
 
 # write the given list
 numbers_x = [10, 20, 30, 40, 10]
-print("The result is " same_first_last(numbers_x))
+print("The result is", same_first_last(numbers_x))
 
 numbers_y = [75, 65, 35, 75, 30]
-print("The result is " same_first_last(numbers_y))
+print("The result is", same_first_last(numbers_y))
